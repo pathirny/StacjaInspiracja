@@ -46,9 +46,9 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
   margin-left: 10px;
   margin-right: 10px;
+  width: 350px;
   flex-direction: row;
 }
 main {
@@ -98,13 +98,42 @@ footer {
   z-index: 2;
   border-radius: 25px;
 }
+.add-topic-expanded-open {
+  min-height: 20rem;
+  border: 1px black solid;
+}
+.topic-input {
+  margin: 10px 10px 0 10px;
+  height: 2rem;
+  text-align: left;
+  border-radius: 50px;
+  padding: 0.5em;
+}
 
+.content-input {
+  margin: 10px;
+  min-height: 1.5em;
+  height: 20em;
+  text-align: left;
+  font-size: larger;
+  border-radius: 20px;
+  padding: 0.5em;
+}
+.add-button {
+  width: 3rem;
+  border-radius: 50px;
+  margin: 0 auto 5px auto;
+  padding-top: 0.3rem;
+}
 .inputForm {
   overflow: hidden;
-  width: 0px;
+  position: absolute;
+  top: 98px;
+  left: 370px;
+  width: 250px;
+  background-color: #fef5ef;
 }
 .contact-us {
-  width: 350px;
   display: flex;
   justify-content: space-evenly;
 }
