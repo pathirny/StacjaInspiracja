@@ -119,6 +119,13 @@ footer {
   border-radius: 20px;
   padding: 0.5em;
 }
+.email-input {
+  margin: 10px 10px 0 10px;
+  height: 2rem;
+  text-align: left;
+  border-radius: 25px;
+  padding: 0.5em;
+}
 .add-button {
   width: 3rem;
   border-radius: 50px;
