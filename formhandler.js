@@ -1,7 +1,6 @@
-import nodemailer from "nodemailer";
+import { nodemailer } from "nodemailer";
 import express from "express";
 import bodyParser from "body-parser";
-import { error } from "console";
 
 const app = express();
 
