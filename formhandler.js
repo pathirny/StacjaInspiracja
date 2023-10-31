@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 const transporter = nodemailer.createTransport({
   service: "gmail",
   auth: {
-    user: "email@gmail.com",
+    user: "pathirny@googlemail.com",
     pass: "password",
   },
 });
@@ -20,7 +20,7 @@ app.post("/send-email", (req, res) => {
   const { name, email, message } = req.body;
   const mailOptions = {
     from: "email@gmail.com",
-    to: "your_email@gmail.com",
+    to: "pathirny@googlemail.com",
     subject: "New form",
     text: `Name ${name} email: ${email} Message: ${message}`,
   };
