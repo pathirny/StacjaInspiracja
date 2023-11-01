@@ -25,7 +25,7 @@
           <a type="submit" class="contact-us-button" onclick="expand()">
             Wyslij
           </a>
-          <form class="inputForm" onsubmit="sendEmail(); reset(); return false;">
+          <form class="inputForm" id="form" action="https://formspree.io/f/mnqkrnqn" method="POST">
             <div class="add-topic-expanded" id="add-expanded">
                 <input
                   class="topic-input"
@@ -81,6 +81,16 @@
         ></i>
       </div>
     </header>
+    <div class="euro">
+        <img class="logo-euro" src="./images/eu.jpg">
+        <img class="logo-euro" src="./images/Leader.png">
+        <img class="logo-euro" src="./images/logo_Partnerstwa_LGD_-_kolor1.jpg">
+        <img class="logo-euro" src="./images/PROW-2014-2020-logo-kolor.jpg">
+        <div class="text-euro">
+        <p>"Europejski Fundusz Rolny na rzecz Rozwoju Obszarów Wiejskich: Europa inwestująca w obszary wiejskie”.</p>
+        <p>Operacja pn. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx mająca na celu xxxxxxxxxxxxxxxxxxxx  współfinansowana jest ze środków Unii Europejskiej w ramach działania 19. Wsparcie dla rozwoju lokalnego w ramach inicjatywy LEADER, poddziałanie 19.2 Wsparcie na wdrażanie operacji w ramach strategii rozwoju lokalnego kierowanego przez społeczność Programu Rozwoju Obszarów Wiejskich na lata 2014-2020.</p>
+        </div>
+      </div>
     <main>
       <img
         src="./images/premium_photo-1675715923855-37abf58ca860.avif"
@@ -122,15 +132,6 @@
       <img src="./images/download (1).png" alt="zdjecie dziecka" class="img-from" />
     </footer>
     <script src="main.js"></script>
-    <script
-    type="text/javascript"
-    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
-  </script>
-  <script type="text/javascript">
-    (function () {
-      emailjs.init('OFs1-Fxp0zRidifY8');
-    })();
-  </script>
     <!-- <script src="formhandler.js"></script> -->
   </body>
 </html>

@@ -18,7 +18,7 @@ header {
   height: 150px;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
   width: 100%;
 }
 .logo {
@@ -37,8 +37,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-right: 10px;
-  margin-left: -150px;
   width: 350px;
   flex-direction: row;
 }
@@ -65,6 +63,23 @@ a:hover {
   height: 400px;
   margin: 10px;
   width: 600px;
+}
+.euro {
+  background-color: #fef5ef;
+  height: 250px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  border-bottom: 1px solid black;
+}
+.logo-euro {
+  width: 130px;
+  height: 30%;
+  margin-top: 10px;
+}
+.text-euro {
+  text-align: center;
 }
 footer {
   display: flex;
