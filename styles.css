@@ -37,8 +37,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-left: 10px;
   margin-right: 10px;
+  margin-left: -150px;
   width: 350px;
   flex-direction: row;
 }

@@ -62,7 +62,7 @@
                 </form>
         </div>
       </div>
-      <img src="./2.png" alt="logo" class="logo" />
+      <img src="./images/2.png" alt="logo" class="logo" />
       <div class="social">
         <i
           class="fa-brands fa-google fa-3x"
@@ -83,7 +83,7 @@
     </header>
     <main>
       <img
-        src="./premium_photo-1675715923855-37abf58ca860.avif"
+        src="./images/premium_photo-1675715923855-37abf58ca860.avif"
         alt="zdjecie dziecka"
         class="child"
       />
@@ -119,11 +119,18 @@
       </p>
     </main>
     <footer>
-      <img src="./download (1).png" alt="zdjecie dziecka" class="img-from" />
+      <img src="./images/download (1).png" alt="zdjecie dziecka" class="img-from" />
     </footer>
     <script src="main.js"></script>
-    <script src="https://smtpjs.com/v3/smtp.js">
-    </script>
+    <script
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init('OFs1-Fxp0zRidifY8');
+    })();
+  </script>
     <!-- <script src="formhandler.js"></script> -->
   </body>
 </html>

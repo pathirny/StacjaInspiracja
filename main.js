@@ -5,13 +5,17 @@ function expand() {
 }
 
 function sendEmail() {
-  Email.send({
-    Host: "smtp.gmail.com",
-    Username: "pathirny@googlemail.com",
-    Password: "password",
-    To: "pathirny@googlemail.com",
-    From: "you@isp.com",
-    Subject: "This is the subject",
-    Body: "And this is the body",
-  }).then((message) => alert(message));
+  const params = {
+    from_name: document.getElementById("name").value,
+    email_id: document.getElementById("email").value,
+    message: document.getElementById("message").value,
+  };
+  emailjs
+    .send("service_98tmbmj", "template_6ak93zm", params)
+    .then(function (res) {
+      alert("success" + res.status);
+    }),
+    function (error) {
+      console.log("FAILED" + error);
+    };
 }
