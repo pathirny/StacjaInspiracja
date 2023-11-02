@@ -1,8 +1,8 @@
-let expanded = document.getElementById("add-expanded");
+// let expanded = document.getElementById("add-expanded");
 
-function expand() {
-  expanded.classList.toggle("add-topic-expanded-open");
-}
+// function expand() {
+//   expanded.classList.toggle("add-topic-expanded-open");
+// }
 
 var form = document.getElementById("form");
 
