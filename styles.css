@@ -46,7 +46,7 @@ header {
   font-size: 20px;
 }
 main {
-  height: 635px;
+  height: 600px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -88,10 +88,10 @@ a:hover {
 }
 footer {
   display: flex;
-  justify-content: space-evenly;
-  align-items: baseline;
-  height: 350px;
-  margin-top: auto;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  height: 450px;
   background-color: #81ae9d;
 }
 
@@ -144,7 +144,6 @@ footer {
 }
 .inputForm {
   overflow: hidden;
-  top: 98px;
   left: 370px;
   width: 350px;
   background-color: #fef5ef;
