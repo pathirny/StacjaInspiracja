@@ -18,7 +18,7 @@ header {
   height: 150px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 100%;
 }
 .logo {
@@ -31,14 +31,19 @@ header {
   align-items: center;
   width: 200px;
   height: 100px;
+  margin-right: 25px;
 }
 .nav {
   height: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 350px;
+  width: 400px;
   flex-direction: row;
+  margin-left: 25px;
+}
+.nav a {
+  font-size: 20px;
 }
 main {
   height: 635px;
@@ -66,7 +71,7 @@ a:hover {
 }
 .euro {
   background-color: #fef5ef;
-  height: 250px;
+  height: 300px;
   width: 100%;
   display: flex;
   justify-content: space-evenly;
@@ -84,18 +89,18 @@ a:hover {
 footer {
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
+  align-items: baseline;
   height: 350px;
   margin-top: auto;
   background-color: #81ae9d;
 }
+
 .img-from {
   width: 100px;
   height: 100px;
 }
 
 .add-topic-expanded {
-  max-height: 0;
   overflow: hidden;
   flex-direction: column;
   display: flex;
@@ -103,10 +108,9 @@ footer {
   transition: max-height 0.5s;
   z-index: 2;
   border-radius: 25px;
+  max-height: 20rem;
 }
-.add-topic-expanded {
-  min-height: 20rem;
-}
+
 .topic-input {
   margin: 10px 10px 0 10px;
   height: 2rem;
@@ -136,18 +140,15 @@ footer {
   border-radius: 50px;
   margin: 0 auto 5px auto;
   padding-top: 0.3rem;
+  margin-top: 10px;
 }
 .inputForm {
   overflow: hidden;
   top: 98px;
   left: 370px;
-  width: 250px;
+  width: 350px;
   background-color: #fef5ef;
   border: solid 1px black;
   box-shadow: 15px 15px 40px;
   border-radius: 25px;
-}
-.contact-us {
-  display: flex;
-  justify-content: space-evenly;
 }
