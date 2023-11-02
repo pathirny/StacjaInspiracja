@@ -1,7 +1,9 @@
 /* * {
   border: red 1px solid;
 } */
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   box-sizing: border-box;
   margin: 0;
