@@ -1,3 +1,6 @@
+* {
+  border: red solid 1px;
+}
 html {
   scroll-behavior: smooth;
 }
@@ -10,6 +13,12 @@ body {
   display: flex;
   flex-direction: column;
   height: 100%;
+}
+main {
+  height: 100%;
+}
+.text-lgd {
+  margin: 10px;
 }
 
 header {
@@ -43,4 +52,23 @@ header {
 }
 .nav a {
   font-size: 20px;
+}
+figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.map {
+  width: 500px;
+  height: 500px;
+  border: solid black 1px;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  height: 450px;
+  background-color: #81ae9d;
 }
