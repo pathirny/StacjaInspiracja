@@ -1,6 +1,6 @@
-* {
+/* * {
   border: red solid 1px;
-}
+} */
 html {
   scroll-behavior: smooth;
 }
@@ -52,6 +52,12 @@ header {
 }
 .nav a {
   font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  background-color: #ffe8c1;
+  border-radius: 30px;
 }
 figure {
   display: flex;
