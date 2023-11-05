@@ -18,6 +18,9 @@ main {
   height: 100%;
   margin: 10px;
 }
+main h2 {
+  text-align: center;
+}
 .text-lgd {
   margin: 10px;
 }
@@ -47,7 +50,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 400px;
+  width: 250px;
   flex-direction: row;
   margin-left: 25px;
 }
