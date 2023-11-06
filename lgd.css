@@ -23,7 +23,7 @@ main {
 }
 
 header {
-  border: 1px solid black;
+  border-bottom: 1px solid black;
   height: 150px;
   display: flex;
   align-items: center;
@@ -78,6 +78,7 @@ footer {
   align-items: center;
   height: 450px;
   background-color: #81ae9d;
+  color: #ffe8c1;
 }
 .contact-lgd {
   display: flex;
@@ -86,6 +87,10 @@ footer {
 .lgd-links {
   display: flex;
   flex-direction: column;
+}
+.lgd-links a {
+  text-decoration: none;
+  color: #ffe8c1;
 }
 .euro {
   background-color: #fef5ef;
@@ -96,6 +101,7 @@ footer {
   flex-wrap: wrap;
   border-top: 1px solid black;
 }
+
 .logo-euro {
   width: 130px;
   height: 30%;
