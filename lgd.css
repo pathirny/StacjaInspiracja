@@ -31,8 +31,9 @@ header {
   width: 100%;
 }
 .logo {
-  width: 250px;
+  width: 225px;
   height: 150px;
+  margin-left: -100px;
 }
 .social {
   display: flex;
