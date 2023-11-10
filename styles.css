@@ -80,7 +80,6 @@ a:hover {
 }
 .euro {
   background-color: #fef5ef;
-  height: 300px;
   width: 100%;
   display: flex;
   justify-content: space-evenly;
@@ -108,12 +107,6 @@ footer {
   margin-top: auto;
   background-color: #81ae9d;
 }
-
-.img-from {
-  width: 100px;
-  height: 100px;
-}
-
 .add-topic-expanded {
   overflow: hidden;
   flex-direction: column;
@@ -178,12 +171,20 @@ footer {
   }
 
   main {
-    height: 100vh;
     display: flex;
     flex-direction: column;
   }
   .child {
-    width: 25rem;
-    height: 25rem;
+    width: 20rem;
+    height: 20rem;
+  }
+  .logo-euro {
+    height: 6rem;
+    width: 6rem;
+  }
+
+  .google {
+    width: 1rem;
+    height: 1rem;
   }
 } */
