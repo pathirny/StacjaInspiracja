@@ -160,6 +160,22 @@ footer {
   border-radius: 25px;
 }
 
+.expandedLinks {
+  position: absolute;
+  top: 9.4rem;
+  width: 100%;
+  display: none;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #81ae9d;
+}
+.expandedLinks a {
+  width: 100%;
+  border-bottom: 1px solid black;
+  height: 5rem;
+  text-align: center;
+  border-radius: 10px;
+}
 /* Media Queries */
 @media screen and (max-width: 430px) {
   .nav a {
@@ -167,7 +183,9 @@ footer {
   }
   .burger {
     display: block;
-    border: 1px solid black;
+    border-top: 4px solid black;
+    width: 40px;
+    padding-top: 8px;
   }
 
   main {

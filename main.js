@@ -1,8 +1,17 @@
-// let expanded = document.getElementById("add-expanded");
+let burgerBox = document.getElementById("burgerBox");
+let linksBox = document.getElementById("expandedLinks");
+// when anywhere on the screen is clicked the popup box will disappear
+function expand() {
+  document.addEventListener("click", function (event) {
+    let isClicked = burgerBox.contains(event.target);
 
-// function expand() {
-//   expanded.classList.toggle("add-topic-expanded-open");
-// }
+    if (isClicked) {
+      linksBox.style.display = "flex";
+    } else {
+      linksBox.style.display = "none";
+    }
+  });
+}
 
 var form = document.getElementById("form");
 
