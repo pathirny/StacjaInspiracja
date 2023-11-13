@@ -161,7 +161,7 @@ footer {
 }
 
 /* Media Queries */
-/* @media screen and (max-width: 390px) {
+@media screen and (max-width: 430px) {
   .nav a {
     display: none;
   }
@@ -187,4 +187,7 @@ footer {
     width: 1rem;
     height: 1rem;
   }
-} */
+  .social {
+    font-size: 8px;
+  }
+}
