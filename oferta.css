@@ -12,10 +12,8 @@ body {
   font-family: Poppins, sans-serif;
   display: flex;
   flex-direction: column;
-  height: 100%;
 }
 main {
-  height: 100%;
   margin: 10px;
 }
 main h2 {
@@ -84,7 +82,6 @@ footer {
 }
 .euro {
   background-color: #fef5ef;
-  height: 300px;
   width: 100%;
   display: flex;
   justify-content: space-evenly;
@@ -190,10 +187,6 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-  }
-  .child {
-    width: 16rem;
-    height: 16rem;
   }
   .logo-euro {
     height: 6rem;
