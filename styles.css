@@ -212,4 +212,7 @@ footer {
   .social {
     font-size: 8px;
   }
+  .form {
+    width: 320px;
+  }
 }
