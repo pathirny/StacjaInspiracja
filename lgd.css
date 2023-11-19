@@ -14,9 +14,7 @@ body {
   flex-direction: column;
   height: 100%;
 }
-main {
-  height: 100%;
-}
+
 .text-lgd {
   text-align: center;
   margin: 40px;
@@ -76,7 +74,6 @@ footer {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  height: 450px;
   background-color: #81ae9d;
   color: #ffe8c1;
 }
@@ -94,8 +91,6 @@ footer {
 }
 .euro {
   background-color: #fef5ef;
-  height: 300px;
-  width: 100%;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
@@ -109,4 +104,94 @@ footer {
 }
 .text-euro {
   text-align: center;
+}
+.expandedLinks {
+  position: absolute;
+  top: 9.4rem;
+  width: 100%;
+  display: none;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #81ae9d;
+}
+.expandedLinks a {
+  width: 100%;
+  border-bottom: 1px solid black;
+  height: 5rem;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  text-decoration: none;
+  color: black;
+}
+
+/* Media Queries */
+@media screen and (max-width: 430px) {
+  .nav a {
+    display: none;
+  }
+  .burger {
+    display: block;
+    border-top: 4px solid black;
+    width: 40px;
+    padding-top: 8px;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .logo-euro {
+    height: 6rem;
+    width: 6rem;
+  }
+  figure {
+    max-width: 24rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .map {
+    width: 24rem;
+    height: 24rem;
+  }
+
+  figcaption p {
+    font-size: 1rem;
+    max-width: 23rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: none;
+  }
+  ul {
+    padding: 1rem;
+    margin-left: 1rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 20rem;
+  }
+  .google {
+    width: 1rem;
+    height: 1rem;
+  }
+  .social {
+    font-size: 8px;
+  }
+  .inputForm {
+    width: 320px;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .text-euro {
+    max-width: 23rem;
+  }
 }
