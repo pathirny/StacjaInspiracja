@@ -89,7 +89,8 @@ footer {
   border-top: 1px solid black;
 }
 .logo-euro {
-  width: 130px;
+  width: 10rem;
+  height: 8rem;
   margin-top: 10px;
 }
 .text-euro {
