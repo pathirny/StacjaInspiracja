@@ -25,9 +25,9 @@
         <div class="burger"></div>
         <div class="burger"></div>
       </div>
-        <a href="./oferta.html">Oferta</a>
-        <a href="#form">Kontakt</a>
-        <a href="./lgd.html">LGD</a>
+        <a href="./oferta.html" class="links">Oferta</a>
+        <a href="#form" class="links">Kontakt</a>
+        <a href="./lgd.html" class="links">LGD</a>
       </div>
       <img src="./images/2.png" alt="logo" class="logo" />
       <div class="social">
@@ -47,29 +47,39 @@
           class="facebook"
         ></i>
       </div>
-      <div class="expandedLinks" id="expandedLinks">
+      <section class="expandedLinks" id="expandedLinks">
         <a href="./oferta.html">Oferta</a>
         <a href="#form">Kontakt</a>
         <a href="./lgd.html">LGD</a>
-      </div>
+      </section>
     </header>
-    <div class="euro">
-        <img class="logo-euro" src="./images/eu.jpg">
-        <img class="logo-euro" src="./images/Leader.png">
-        <img class="logo-euro" src="./images/logo_Partnerstwa_LGD_-_kolor1.jpg">
-        <img class="logo-euro" src="./images/PROW-2014-2020-logo-kolor.jpg">
-        <div class="text-euro">
+    <section class="euro">
+      <figure>
+        <img class="logo-euro" src="./images/eu.jpg" alt="European Flag">
+      </figure>
+      <figure>
+        <img class="logo-euro" src="./images/Leader.png" alt="Goverment image">
+      </figure>
+      <figure>
+        <img class="logo-euro" src="./images/logo_Partnerstwa_LGD_-_kolor1.jpg" alt="Partnerstwo Dorba Widawa">
+      </figure>
+      <figure>
+        <img class="logo-euro" src="./images/PROW-2014-2020-logo-kolor.jpg" alt="PROW">
+      </figure>
+        <aside class="text-euro">
         <p>"Europejski Fundusz Rolny na rzecz Rozwoju Obszarów Wiejskich: Europa inwestująca w obszary wiejskie”.</p>
         <p>Operacja pn. "Utworzenie nowego przedsiębiorstwa w zakresie opieki nad dziećmi poprzez utworzenie świetlico - kawiarni" mająca na celu utworzenie nowego przedsiębiorstwa w zakresie opieki dziennej nad dziećmi poprzez utworzenie świetlico - kawiarni współfinansowana jest ze środków Unii Europejskiej w ramach działania 19. Wsparcie dla rozwoju lokalnego w ramach inicjatywy LEADER, poddziałanie 19.2 Wsparcie na wdrażanie operacji w ramach strategii rozwoju lokalnego kierowanego przez społeczność Programu Rozwoju Obszarów Wiejskich na lata 2014-2020.</p>
-        </div>
-      </div>
+        </aside>
+      </section>
     <main>
+      <figure>
       <img
         src="./images/zdjecie strona główna.jpg"
-        alt="zdjecie dziecka"
+        alt="Image of paint"
         class="child"
       />
-      <div class="text">
+    </figure>
+      <section class="text">
       <p>
         Czy marzysz o miejscu, gdzie Twoje dzieci mogą się bawić i rozwijać oraz gdzie znajdziesz pyszne, domowe wypieki? To nowe miejsce na mapie gminy Czernica – Stacja Inspiracja!
 </p>
@@ -91,24 +101,24 @@ Moim marzeniem od zawsze było utworzenie miejsca, które będzie inspiracją or
 <p>
 Moją drugą pasją są wypieki, uczestniczyłam w wielu szkoleniach cukierniczych oraz miałam swój epizod jako cukiernik. Będziecie więc mieli okazję sami spróbować :)
       </p>
-      </div>
+      </section>
     </main>
     <footer>
       <h3>Skontaktuj się z nami</h3>
       <form class="inputForm" id="form" action="https://formspree.io/f/xknleqpj" method="POST" reset>
-        <div class="add-topic-expanded" id="add-expanded">
+        <section class="contactForm" id="add-expanded">
             <input
-              class="topic-input"
-              id="topic-input"
-              name="topic"
+              class="name-input"
+              id="name-input"
+              name="name"
               placeholder="Imie"
               required
               type="text"
               id="name"
             ></input>
             <textarea
-              class="content-input"
-              name="content"
+              class="message-input"
+              name="message"
               placeholder="Wiadomosc"
               required
               rows="5"
