@@ -74,39 +74,39 @@
     <footer>
       <h2>Skontaktuj się z nami</h2>
       <form class="inputForm" id="form" action="https://formspree.io/f/xknleqpj" method="POST" reset>
-        <div class="add-topic-expanded" id="add-expanded">
-            <input
-              class="topic-input"
-              id="topic-input"
-              name="topic"
-              placeholder="Imie"
-              required
-              type="text"
-              id="name"
-            ></input>
-            <textarea
-              class="content-input"
-              name="content"
-              placeholder="Wiadomosc"
-              required
-              rows="5"
-              cols="50"
-              type="text"
-              id="message"
-            ></textarea>
-            <input class="email-input"
-            name="email"
-            placeholder="Email"
-            required
-            rows="5"
-            cols="50"
-            type="email"
-            id="email"
-            ></input>
+        <section class="contactForm" id="add-expanded">
+          <input
+          class="name-input"
+          id="name-input"
+          name="name"
+          placeholder="Imie"
+          required
+          type="text"
+          id="name"
+        ></input>
+        <textarea
+          class="message-input"
+          name="message"
+          placeholder="Wiadomosc"
+          required
+          rows="5"
+          cols="50"
+          type="text"
+          id="message"
+        ></textarea>
+        <input class="email-input"
+        name="email"
+        placeholder="Email"
+        required
+        rows="5"
+        cols="50"
+        type="email"
+        id="email"
+        ></input>
             <button class="add-button">
               <i class="fa-solid fa-paper-plane" style="color: #000000;"></i>
             </button>
-            </div>
+        </section>
             </form>
     </footer>
     <script src="main.js"></script>

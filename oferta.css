@@ -101,7 +101,7 @@ footer {
 .text-euro {
   text-align: center;
 }
-.add-topic-expanded {
+.contactForm {
   overflow: hidden;
   flex-direction: column;
   display: flex;
@@ -112,7 +112,7 @@ footer {
   max-height: 20rem;
 }
 
-.topic-input {
+.name-input {
   margin: 10px 10px 0 10px;
   height: 2rem;
   text-align: left;
@@ -120,7 +120,7 @@ footer {
   padding: 0.5em;
 }
 
-.content-input {
+.message-input {
   margin: 10px;
   min-height: 1.5em;
   height: 20em;
