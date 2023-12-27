@@ -50,6 +50,7 @@ header {
 }
 .nav a {
   font-size: 20px;
+  transition: 1s;
 }
 .burger {
   display: none;
