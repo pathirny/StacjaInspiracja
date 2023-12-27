@@ -53,10 +53,12 @@ header {
   font-size: 20px;
   text-decoration: none;
   color: black;
+  transition: 1s;
 }
 .nav a:hover {
   background-color: #ffe8c1;
   border-radius: 30px;
+  border: 1px solid black;
 }
 figure {
   display: flex;
@@ -101,6 +103,10 @@ footer {
   width: 10rem;
   height: 8rem;
   margin-top: 10px;
+}
+.links {
+  width: 5vw;
+  text-align: center;
 }
 .text-euro {
   text-align: center;
