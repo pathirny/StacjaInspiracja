@@ -62,7 +62,10 @@ main {
   margin-left: 35px;
   margin-right: 35px;
 }
-
+.links {
+  width: 5vw;
+  text-align: center;
+}
 a {
   font-size: 24px;
   text-decoration: none;
@@ -71,6 +74,7 @@ a {
 a:hover {
   background-color: #ffe8c1;
   border-radius: 30px;
+  border: solid 1px black;
 }
 .child {
   height: 25rem;
